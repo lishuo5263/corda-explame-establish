@@ -21,3 +21,9 @@ Run Coradapp
                  val borrower: Party) : ContractState {
       override val participants get() = listOf(lender, borrower)
   }
+
+2: add owe IOUFlow
+
+3: step by 2 then add owe IOUFlowResponder
+
+4: step by 3 then add owe IOUContract
